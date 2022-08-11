@@ -1,0 +1,245 @@
+$max-width: 1296px;
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+.reviews {
+
+		
+
+		&__titlebloc {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+            // margin: 0 auto;
+            // max-width: $max-width;
+            
+		}
+
+		&__titlebloc-lefticon {
+            padding-right: 45px;
+		}
+
+		&__titlebloc-title {
+        font-family: $fontfamilyElMessiriBold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 140%;
+        color: #FFFFFF;
+		}
+
+        &__titlebloc-righticon{
+            padding-left: 45px;
+
+        }
+
+		&__slider {
+        
+        
+		}
+
+		&__slider-list {
+            display: flex;
+             justify-content: center;
+             position: relative;
+             margin-bottom: 60px;
+            
+		}
+
+		&__slider-list-element {
+            margin-right: 50px;
+            margin-bottom: 60px;
+            
+		}
+        &__slider-list-element-figute-sasha{
+            position: relative;
+            z-index: 1;
+        }
+        &__slider-list-elemen-img-1{
+
+        }
+        &__slider-list-element-figute-figcaption-1-sasha{
+            position: absolute;
+			padding-top: 70px;
+            padding-left: 60px;    
+			top: 0;
+			right: 1;
+			font-style: $fontfamilyProximaNovaBold;
+			font-size: 16px;
+            line-height: 140%;
+			color: #FFFFFF;
+
+        }
+         &__slider-list-element-figute-figcaption-2-sasha{
+            position: absolute;
+			padding-top: 110px;
+			top: 0;
+			right: 10;
+            padding-left: 60px; 
+            font-family: $fontfamilyProximaNovaBold;
+			max-width: 800px;
+            font-size: 10px;
+            line-height: 140%; 
+            color: #FFFFFF;
+            
+        }
+         &__slider-list-element-figute-figcaption-3-sasha{
+            position: absolute;
+			padding-top: 190px;
+            padding-right: 30px;
+            padding-left: 60px; 
+			top: 0;
+			right: 10;
+            font-family: $fontfamilyProximaNovaBold;
+			max-width: 800px;
+            font-size: 10px;
+            line-height: 140%; 
+            color: #FFFFFF; 
+        }
+         &__slider-list-element-figute-kira{
+            position: relative;
+            z-index: 2;
+        }
+        &__slider-list-element-figute-figcaption-1-kira{
+            position: absolute;
+			padding-top: 50px;
+            padding-left: 60px;
+			top: 0;
+			right: 10;
+			font-style: $fontfamilyProximaNovaBold;
+			font-size: 20px;
+            line-height: 140%;
+			color: #FFFFFF;
+
+        }
+         &__slider-list-element-figute-figcaption-2-kira{
+            position: absolute;
+			padding-top: 100px;
+            padding-left: 60px;
+			top: 0;
+			right: 10;
+            max-width: 600px;
+            font-family: $fontfamilyProximaNovaBold;
+            font-size: 14px;
+            line-height: 140%; 
+            color: #FFFFFF;
+            
+        }
+         &__slider-list-element-figute-figcaption-3-kira{
+            position: absolute;
+			padding-top: 200px;
+            padding-left: 60px;
+			top: 0;
+			right: 10;
+            max-width: 600px;
+            font-family: $fontfamilyProximaNovaBold;
+            font-size: 14px;
+            line-height: 140%; 
+            color: #FFFFFF;
+            
+        }
+        &__slider-list-element-figute-yana{
+            position: relative;
+            z-index: 1;
+        }
+        &__slider-list-element-figute-figcaption-1-yana{
+            position: absolute;
+			padding-top: 70px;
+            padding-left: 60px;    
+			top: 0;
+			right: 1;
+			font-style: $fontfamilyProximaNovaBold;
+			font-size: 16px;
+            line-height: 140%;
+			color: #FFFFFF;
+
+        }
+         &__slider-list-element-figute-figcaption-2-yana{
+            position: absolute;
+			padding-top: 110px;
+			top: 0;
+			right: 10;
+            padding-left: 60px; 
+            font-family: $fontfamilyProximaNovaBold;
+			max-width: 800px;
+            font-size: 10px;
+            line-height: 140%; 
+            color: #FFFFFF;
+            
+        }
+         &__slider-list-element-figute-figcaption-3-yana{
+            position: absolute;
+			padding-top: 230px;
+            padding-right: 30px;
+            padding-left: 60px; 
+			top: 0;
+			right: 10;
+            font-family: $fontfamilyProximaNovaBold;
+			max-width: 800px;
+            font-size: 10px;
+            line-height: 140%; 
+            color: #FFFFFF;  
+        }
+        &__slider-list-element:last-child{
+            margin-right: 0px;
+            
+        }
+
+        &__slider-list-elemen-img-1{
+            padding-top: 45px;
+           
+        }
+        &__slider-list-elemen-img-2{
+            
+        }
+        &__slider-list-elemen-img-3{
+             padding-top: 45px; 
+            overflow: hidden;
+            
+        }
+
+        &__slider-dots{
+             display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 150px;
+
+        }
+        &__slider-dots-div{
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+            margin-right: 20px;
+            background: #FFFFFF;
+           opacity: 0.4;
+            
+        }
+        &__slider-dots-div:first-child{
+            background: #FFFFFF;
+             opacity: 1;
+        }
+
+}
+
+.owl-dots{
+    
+        display: flex;
+       justify-content: center;
+
+
+}
+
+button.owl-dot{
+    margin-left: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    margin-right: 20px;
+    background-color: #FFFFFF!important;
+    opacity: 0.4;
+}
+button.owl-dot.active{
+    opacity: 1;
+}

@@ -1,0 +1,78 @@
+@media screen and (max-width: 960px) {
+  .header__nav-logo {
+    padding-left: 10px;
+    margin-right: 90px;
+  }
+  .header__nav-menu-list {
+    padding-right: 25px;
+  }
+  .header__nav-menu-list:last-child {
+    margin-right: 100px;
+  }
+  .header__screen-figcaption-1 {
+    padding-left: 250px;
+  }
+  .header__screen-figcaption-2 {
+    padding-left: 250px;
+  }
+  .header__screen-figcaption-3 {
+    padding-left: 250px;
+  }
+  .sessions__cards-image {
+    margin-bottom: 60px;
+  }
+  .about__theraphy {
+    flex-wrap: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .about__media-paragraph {
+    font-size: 14px;
+  }
+  .costs__card-titles {
+    padding-left: 10px;
+  }
+  .costs__card-gift {
+    padding-right: 10px;
+  }
+  .adress__card {
+    display: block !important;
+    max-width: 960px !important;
+    padding-left: 60px;
+  }
+  .adress__card-mediaWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .adress__card-workclass {
+    margin-top: 15px;
+    margin-left: 0px !important;
+    min-width: 392px;
+    min-height: 290px;
+  }
+  .adress__block-try {
+    margin-top: 15px !important;
+    margin-left: 73px !important;
+    justify-content: flex-end;
+    margin-top: 0px;
+  }
+  .footer__wrapper {
+    padding-right: 0px;
+  }
+  .footer__wrapper-year {
+    padding-left: 10px;
+  }
+  .footer__wrapper-createby {
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .main__card-info-text {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  .news__cards {
+    margin-left: 50px;
+  }
+}/*# sourceMappingURL=media960px.css.map */

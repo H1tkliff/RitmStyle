@@ -1,0 +1,41 @@
+.sessions__titlebloc {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.sessions__titlebloc-lefticon {
+  padding-right: 45px;
+}
+.sessions__titlebloc-title {
+  font-family: "El Messiri Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.sessions__titlebloc-righticon {
+  padding-left: 45px;
+}
+.sessions__container {
+  max-width: 1296px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.sessions__cards {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 426px);
+}
+.sessions__cards-link:hover {
+  opacity: 0.7;
+}
+.sessions__card-1 {
+  margin-right: 24px;
+}
+.sessions__card-2 {
+  margin-right: 24px;
+}
+.sessions__card-3 {
+  margin-bottom: 25px;
+}/*# sourceMappingURL=sessions.css.map */

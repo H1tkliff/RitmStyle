@@ -1,0 +1,21 @@
+.footer__wrapper {
+  max-width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 30px;
+}
+.footer__wrapper-year {
+  font-family: "Proxima Nova Regular";
+  font-size: 14px;
+  line-height: 135%;
+  color: #FFFFFF;
+}
+.footer__wrapper-createby {
+  font-family: "Proxima Nova Regular";
+  font-size: 14px;
+  line-height: 135%;
+  color: #FFFFFF;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,81 @@
+$max-width: 1296px;
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+
+.costs {
+    margin-bottom: 150px;
+    
+
+		&__titlebloc {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+		}
+        &__titlebloc-title{
+             font-family: $fontfamilyElMessiriBold;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+
+		&__titlebloc-lefticon {
+            padding-right: 45px;
+		}
+
+		&__titlebloc-righticon {
+            padding-left: 45px;
+
+		}
+
+		&__card {
+            max-width: 1076px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+		}
+
+		&__card-titles {
+            padding-top: 70px;
+		}
+
+		&__card-title {
+            display: flex;
+		}
+
+		&__card-title-img {
+            padding-bottom: 35px;
+            padding-right: 20px;
+		}
+
+		&__card-title-text {
+            padding-right: 23px;
+            font-family: $fontfamilyProximaNovaLight;
+            font-size: 18px;
+            line-height: 140%;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+		}
+
+		&__card-title-cost {
+            font-family: $fontfamilyElMessiriBold;
+            font-size: 18px;
+            line-height: 140%;
+            text-align: right;
+            color: #FFFFFF;
+		}
+
+		&__card-gift {
+            margin-left: auto;
+            
+            
+		}
+
+		&__card-gift-img {
+		}
+}
+

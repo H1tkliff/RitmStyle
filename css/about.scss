@@ -1,0 +1,100 @@
+$max-width: 1296px;
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+.about {
+      margin-bottom: 145px;
+ 
+		
+        &__titlebloc {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+		}
+        &__titlebloc-title{
+            font-family: $fontfamilyElMessiriBold;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+
+		&__titlebloc-lefticon {
+             padding-right: 45px;
+		}
+
+		&__titlebloc-righticon {
+            padding-left: 45px;
+
+		}
+
+		&__theraphy {
+             margin: 0 auto;
+        max-width: 1076px;
+              display: flex;
+              flex-wrap: wrap;
+              
+		}
+
+           &__theraphy-second{
+              margin: 0 auto;
+            max-width: 1076px;
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: row-reverse;
+             
+           }
+
+            &__text{
+           
+            }
+
+		&__theraphy-text {
+            
+		}
+
+		&__theraphy-title {
+            font-family: $fontfamilyProximaNovaBold;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 140%;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+		}
+
+		&__theraphy-paragparh {
+            font-family: $fontfamilyProximaNovaRegular;
+            max-width: 466px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 140%;
+            color: #FFFFFF;
+		}
+
+		&__theraphy-img {
+            
+		}
+
+		&__theraphy-img-screen {
+              
+		}
+            &__img1{
+                  padding-left: 84px;
+            }
+            &__img2{
+                  padding-right: 84px;
+            }
+           
+}
+
+.first-paragraph {
+      margin-bottom: 117px;
+}
+.second-paragraph {
+      
+}

@@ -1,0 +1,123 @@
+@import url(/css/nullstyles.css);
+@import url(/css/header.css);
+@import url(/css/footer.css);
+@import url(/css/media/media960px.css);
+@import url(/css/media/media767px.css);
+$max-width: 1296px;
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+
+.all{
+        background: #162831;
+        
+}
+
+.header{
+}
+
+.header__nav-button{
+    margin-left: 25px;
+}
+
+.header__nav{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.news{
+    max-width: $max-width;
+        margin: 0 auto;
+    
+		&__titlebloc {
+    
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+            
+            
+		}
+
+		&__titlebloc-lefticon {
+            padding-right: 45px;
+		}
+
+		&__titlebloc-title {
+        font-family: $fontfamilyElMessiriBold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 140%;
+        color: #FFFFFF;
+		}
+
+        &__titlebloc-righticon{
+            padding-left: 45px;
+
+        }
+
+
+        
+
+        &__cards-card{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 120px;
+            border-bottom: 1px solid #FFFFFF;
+            margin-bottom: 30px;
+            
+        }
+        &__cards-card-section{
+            position: relative;
+            padding-bottom: 24px;
+            padding-right: 15px;
+        }
+        &__cards-card-section-date{
+            position: absolute;
+            background: #018ABE;
+            border-radius: 5px;
+            width: 89px;
+            height: 30px;
+            top: 0;
+            right: 10;
+            margin-top: 30px;
+            margin-left: 35px;
+            font-family: $fontfamilyProximaNovaRegular;
+            font-size: 14px;
+            line-height: 135%;
+            color: #FFFFFF;
+            padding-top: 6px;
+            text-align: center;
+            
+        }
+        &__cards-card-section-title{
+            position: absolute;
+            top: 0;
+            right: 10;
+            font-family: $fontfamilyElMessiriBold;
+            font-size: 21px;
+            line-height: 140%;
+            color: #FFFFFF;
+            padding-top: 199px;
+            padding-left: 35px;
+            
+        }
+        
+        
+
+
+    }
+
+    .footer{
+        &__wrapper{
+            padding-right: 0;
+        }
+    }
+
+
+
+  
+
+

@@ -1,0 +1,47 @@
+@import url(nullstyles.css);
+@import url(header.css);
+@import url(sessions.css);
+@import url(reviews.css);
+@import url(about.css);
+@import url(costs.css);
+@import url(adress.css);
+@import url(footer.css);
+@import url(./media/media960px.css);
+@import url(./media/media767px.css);
+//Шрифты
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url(../fonts/proxima-nova-regular.ttf);
+}
+@font-face {
+  font-family: "El Messiri Bold";
+  src: url(../fonts/el-messiri-v16-latin-700.ttf);
+}
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url(../fonts/proxima-nova-bold.ttf);
+}
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url(../fonts/proxima-nova-condensed-light.ttf);
+}
+
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+
+//Переменные
+$max-width: 1296px;
+
+
+.all{
+  background: #162831;
+  overflow: hidden;
+}
+
+
+
+
+

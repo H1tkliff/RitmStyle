@@ -1,0 +1,188 @@
+
+$max-width: 1296px;
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+@media screen and (max-width: 767px){
+    .header{
+        &__nav-logo{
+            margin-right: 50px;
+        }
+        &__nav-menu{
+            justify-content:flex-start;
+        }
+        &__nav-menu-list{
+
+            padding-right: 60px;
+        }
+        &__nav-button{
+            min-width: 120px;
+            margin-right: 10px;
+        }
+        &__screen-figcaption-1{
+            padding-left: 0px;
+            text-align: center;
+        }
+
+        &__screen-figcaption-2{
+            
+            padding-left: 0px;
+            text-align: center;
+        }
+        &__screen-figcaption-3{
+            padding-left: 0px;
+            text-align: center;
+        }
+
+    }
+
+
+    .sessions{
+        &__cards-image{
+            // margin-bottom: 20px;
+            width: 330px !important;
+            margin-bottom: 20px;
+            height: 258px;
+           
+        }
+        &__cards-image:first-child{
+            max-height: none !important;
+            height: auto;
+        }
+        &__cards-link{
+            max-height: 258px !important;
+            width: 300px !important;
+            
+        }
+        &__cards-image:first-child{
+            margin-bottom: 70px;
+        }
+        &__card-2,&__card-4,&__card-1{
+            padding-left: 10px;
+        }&__card-3,&__card-5{
+            padding-right: 10px;
+        }
+        
+    }
+
+    .about{
+        &__theraphy-paragparh{
+            font-size: 13px;
+        }
+        &__theraphy-img{
+            padding-left: 20px;
+        }
+        &__img2{
+            padding-left: 0px;
+            padding-right: 20px;
+            
+        }
+        &__media-paragraph{
+            font-size: 12px;
+        }
+        &__theraphy-img-screen-2{
+            max-width: 526px;
+            min-height: 520px;    
+        }
+    }
+
+    .costs{
+        &__card{
+            flex-wrap: nowrap;
+    }
+
+    &__card-titles{
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    &__card-title-cost{
+        padding-top: 10px;
+    }
+    &__card-title-text{
+        padding-right: 23px;
+    }
+    &__card-gift{
+        padding-top: 60px;
+        padding-right: 0px;
+    }
+}
+
+    .adress{
+        &__card-mediaWrapper{
+            flex-wrap: nowrap;
+        }
+        &__card-workclass{
+            min-width: 373px !important;
+        }
+        &__block-try{
+            margin-left: 10px !important;
+            max-width: 373px !important;
+            // margin-right: 80px !important;
+
+        }
+    }
+    }
+
+
+
+
+    //NEWS HTML
+ 
+    @media screen and (max-width: 767px){
+        .header{
+            padding-bottom: 0px;
+        }
+        .news{
+            &__cards-card{
+                padding-left: 0px;
+            }
+            &__cards-card-section{
+                margin-right: 55px !important;
+                max-width: 300px;
+            }
+            &__cards-card-section-img{
+                max-width: 330px;
+            }
+            &__cards-card-section-title{
+                padding-top: 150px !important;
+            }
+        }
+        .footer{
+            &__wrapper-year{
+                   padding-left: 50px; 
+            }
+            &__wrapper-createby{
+                padding-right: 0px;
+            }
+        }
+    }
+
+
+    //BLOG HMTL
+    @media screen and (max-width: 767px){
+        .main{
+            &__cards{
+                display: block !important; 
+                padding-left: 100px !important;
+                
+            }
+            &__card-photo{
+                display: block;
+                margin: auto;
+                margin-bottom: 10px;
+            }
+        }
+        // .footer{
+        //     &__wrapper-year{
+        //            padding-left: 0px; 
+        //     }
+        //     &__wrapper-createby{
+        //         padding-right: 0px;
+        //     }
+        // }
+
+
+    }
+        

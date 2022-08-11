@@ -1,0 +1,63 @@
+.about {
+  margin-bottom: 145px;
+}
+.about__titlebloc {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.about__titlebloc-title {
+  font-family: "El Messiri Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.about__titlebloc-lefticon {
+  padding-right: 45px;
+}
+.about__titlebloc-righticon {
+  padding-left: 45px;
+}
+.about__theraphy {
+  margin: 0 auto;
+  max-width: 1076px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about__theraphy-second {
+  margin: 0 auto;
+  max-width: 1076px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.about__theraphy-title {
+  font-family: "Proxima Nova Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.about__theraphy-paragparh {
+  font-family: "Proxima Nova Regular";
+  max-width: 466px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.about__img1 {
+  padding-left: 84px;
+}
+.about__img2 {
+  padding-right: 84px;
+}
+
+.first-paragraph {
+  margin-bottom: 117px;
+}/*# sourceMappingURL=about.css.map */

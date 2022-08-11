@@ -1,0 +1,168 @@
+@import url(/css/nullstyles.css);
+@import url(/css/header.css);
+@import url(/css/footer.css);
+@import url(/css/media/media960px.css);
+@import url(/css/media/media767px.css);
+@import url(/css/media/foooter_for_blog.css);
+$max-width: 1296px;
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+
+.all{
+        background: #162831;
+        
+        
+}
+
+.header{
+    
+}
+
+.header__nav-button{
+    margin-left: 25px;
+}
+
+.header__nav{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.main{
+    max-width: $max-width;
+        margin: 0 auto;
+    &__titlebloc {
+    
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        
+        
+    }
+
+    &__titlebloc-lefticon {
+        padding-right: 45px;
+    }
+
+    &__titlebloc-title {
+    font-family: $fontfamilyElMessiriBold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    color: #FFFFFF;
+    }
+
+    &__titlebloc-righticon{
+        padding-left: 45px;
+
+    }
+
+    
+
+    &__cards{
+        display: flex;
+        border: 2px solid #018ABE;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding: 50px;
+        margin-bottom: 45px;
+       
+    }
+
+    .card-2{
+        margin-bottom: 120px;
+        
+    }
+
+    &__card-photo{
+        margin-right: 50px;
+        
+
+    }
+
+    &__card-img{
+
+    }
+
+
+    &__card-info{
+
+
+    }
+
+    &__card-info-date{
+            background: #018ABE;
+            border-radius: 5px;
+            width: 96px;
+            height: 30px;
+            font-family: $fontfamilyProximaNovaRegular;
+            font-size: 14px;
+            line-height: 135%;
+            color: #FFFFFF;
+            padding-top: 6px;
+            text-align: center;
+            margin-bottom: 30px;
+
+    }
+
+    &__card-info-title{
+        font-family: $fontfamilyProximaNovaRegular;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    &__card-info-text{
+        max-width: 480px;
+        font-family: $fontfamilyProximaNovaRegular;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-bottom: 18px;
+    } 
+
+    &__card-info-button{
+        background: #018ABE;
+        border-radius: 5px;
+        width: 134px;
+        height: 39px;
+        font-family: $fontfamilyProximaNovaRegular;
+        font-size: 14px;
+        line-height: 135%;
+        color: #FFFFFF;
+        text-align: center;
+    
+        border-color: #f1c40f;
+        color: #fff;
+        background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+        background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+        background-position: 100%;
+        background-size: 400%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+    }
+    &__card-info-button:hover{
+        background-position: 0;
+
+    }
+
+
+    &__bordertofooter{
+        display: block;
+        border: 1px solid #FFFFFF;
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+.footer{
+    &__wrapper{
+        padding-right: 0;
+    }
+}

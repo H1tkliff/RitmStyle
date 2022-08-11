@@ -1,0 +1,56 @@
+.costs {
+  margin-bottom: 150px;
+}
+.costs__titlebloc {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.costs__titlebloc-title {
+  font-family: "El Messiri Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.costs__titlebloc-lefticon {
+  padding-right: 45px;
+}
+.costs__titlebloc-righticon {
+  padding-left: 45px;
+}
+.costs__card {
+  max-width: 1076px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.costs__card-titles {
+  padding-top: 70px;
+}
+.costs__card-title {
+  display: flex;
+}
+.costs__card-title-img {
+  padding-bottom: 35px;
+  padding-right: 20px;
+}
+.costs__card-title-text {
+  padding-right: 23px;
+  font-family: "Proxima Nova Light";
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.costs__card-title-cost {
+  font-family: "El Messiri Bold";
+  font-size: 18px;
+  line-height: 140%;
+  text-align: right;
+  color: #FFFFFF;
+}
+.costs__card-gift {
+  margin-left: auto;
+}/*# sourceMappingURL=costs.css.map */

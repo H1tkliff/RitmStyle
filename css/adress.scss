@@ -1,0 +1,130 @@
+$max-width: 1296px;
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+.adress{
+	margin-bottom: 90px;
+
+	.adress__card {
+	  margin: 0 auto;
+	  max-width: 1296px;
+	  display: grid;
+	  grid-template-columns: repeat(2, 826px);
+	  grid-template-rows: repeat(2, 302px);
+	}
+	.adress__card-workclass {
+	  margin-left: 48px;
+	  min-width: 392px;
+    	min-height: 290px;	
+	  background: #018ABE;
+	  border-radius: 10px;
+	}
+	
+	.adress__card img.adress__card-img {
+	  grid-column:  1 / 2;
+	  grid-row: 1 / 2;
+	  width: 100%;
+	  object-fit: cover;
+	}
+	
+	.adress__card .adress__card-workclass {
+	  grid-column: 2 / 3;
+	  grid-row: 1 / 2;
+	}
+	
+	.adress__card .adress__card-workclass.adress__block-try {
+	  grid-column: 2 / 3;
+	  grid-row: 2 / 3;
+	}
+	&__card-workclass {
+		margin-left: 48px;
+		max-width: 320px;
+		max-height: 290px;
+		// align-self: flex-end;
+		background: #018ABE;
+		border-radius: 10px;
+	}
+	&__block-try{
+		margin-top: 25px;
+		font-family: $fontfamilyElMessiriBold;
+		font-size: 24px;
+		line-height: 140%;
+		color: #FFFFFF;
+		
+	
+	}
+	&__card-workclass-title{
+		padding-top: 35px;
+		padding-left: 44px;	
+		font-family: $fontfamilyElMessiriBold;
+		font-size: 24px;
+		line-height: 140%;
+		color: #FFFFFF;
+	}
+	&__card-workclass-wall {
+	padding-top: 20px;
+	padding-left: 45px;	
+	font-family: $fontfamilyProximaNovaRegular;
+	font-size: 14px;
+	line-height: 135%;
+	color: #FFFFFF;
+
+	}
+	&__card-worklass-icon{
+		padding-right: 20px;
+	}
+	&__icon1{
+		padding-left: 2px;
+		padding-right: 25px;
+	}
+	
+	
+
+	
+				&__card-workclass-subway {
+					padding-left: 45px;
+						padding-top: 20px;
+				padding-left: 45px;	
+				font-family: $fontfamilyProximaNovaRegular;
+				font-size: 14px;
+				line-height: 135%;
+				color: #FFFFFF;
+				}
+	
+				&__card-workclass-entry {
+					padding-left: 45px;
+					padding-top: 20px;
+					padding-left: 45px;	
+					font-family: $fontfamilyProximaNovaRegular;
+					font-size: 14px;
+					line-height: 135%;
+					color: #FFFFFF;
+					margin-bottom: 30px;
+				}
+	
+				&__card-button {
+					margin-left: 45px;
+					background: #FFFFFF;
+					border-radius: 3px;
+					width: 153px;
+					height: 36px;
+				}
+	
+				&__card-button-but {
+					font-family: $fontfamilyProximaNovaRegular;
+					font-size: 13px;
+					line-height: 140%;
+					color: #018ABE;
+					padding: 9px 15px
+				}
+				&__card-button:hover{
+					box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+					outline-color: rgba(255, 255, 255, 0);
+					outline-offset: 15px;
+					text-shadow: 1px 1px 2px #427388; 
+					opacity: 0.8;
+				}
+		
+}

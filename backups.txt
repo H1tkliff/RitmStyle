@@ -1,0 +1,47 @@
+//bloc reviews old code card
+
+  <!-- <li class="reviews__slider-list-element">
+                        <figure class="reviews__slider-list-element-figute-sasha">
+                            <img class="reviews__slider-list-elemen-img-1" src="./img/png/reviews-kira.png.png" alt="blue_card_background">
+                            <figcaption class="reviews__slider-list-element-figute-figcaption-1-sasha">Александра Дмитриева</figcaption>
+                            <figcaption class="reviews__slider-list-element-figute-figcaption-2-sasha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur nulla viverra egestas tellus. Cursus scelerisque phasellus netus proin. Etiam mauris maecenas facilisis faucibus mauris eleifend purus. Purus dictum vulputate elementum mauris amet.</figcaption>
+                            <figcaption class="reviews__slider-list-element-figute-figcaption-3-sasha">Hendrerit sit cras ullamcorper morbi quam vitae ante nibh. Ornare ipsum mi nisl augue placerat lacus. Dolor ipsum fermentum viverra bibendum faucibus urna. Arcu, ut sed tellus lacus quisque diam. Semper sed aenean in etiam mus praesent diam semper in. Pretium id a amet, massa ligula nibh faucibus ornare. Ut aenean rhoncus sed nam ut diam dapibus. Risus nibh faucibus eu vestibulum tempor, quis ultrices mauris. Porta enim, donec odio sagittis, eget velit at. </figcaption>
+                        </figure>
+                       </li>
+                -->
+                  
+                       <!-- data-merge="5" -->
+                       <!-- <li class="reviews__slider-list-element">
+                        <figure class="reviews__slider-list-element-figute-kira"></figure>
+                           <img class="reviews__slider-list-elemen-img-2" src="./img/png/reviews-kira.png.png" alt="blue_card_background">
+                           <figcaption class="reviews__slider-list-element-figute-figcaption-1-kira">Кира Иванова</figcaption>
+                            <figcaption class="reviews__slider-list-element-figute-figcaption-2-kira">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</figcaption>
+                            <figcaption class="reviews__slider-list-element-figute-figcaption-3-kira">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.  </figcaption>
+                        </figure>
+                       </li> -->
+                   
+    
+                   
+                       <!-- <li class="reviews__slider-list-element">
+                         <figure class="reviews__slider-list-element-figute-yana"></figure>
+                           <img class="reviews__slider-list-elemen-img-3" src="./img/png/reviews-kira.png.png" alt="blue_card_background">
+                            <figcaption class="reviews__slider-list-element-figute-figcaption-1-yana">Яна Жернова</figcaption>
+                            <figcaption class="reviews__slider-list-element-figute-figcaption-2-yana">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia eget mattis orci aliquam enim tincidunt gravida aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt. Pretium dictum odio feugiat auctor diam sit viverra gravida. Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac. Cursus diam turpis iaculis nisi sit. Vel blandit et sit elit vestibulum feugiat proin tempor, justo. Diam commodo, pellentesque at porttitor tristique faucibus faucibus morbi. Bibendum pretium lacus, tempus viverra vitae odio nunc eget.</figcaption>
+                            <figcaption class="reviews__slider-list-element-figute-figcaption-3-yana">Tortor fermentum orci neque sed. Mauris faucibus diam lorem erat ullamcorper donec egestas neque. Maecenas malesuada mauris magnis sed id. Luctus vitae justo, in consectetur arcu. Nulla feugiat at eu in aliquet. Diam nunc, libero mauris tellus suspendisse morbi sagittis semper.  </figcaption>
+                        </figure>
+                       </li> -->
+
+                       <!-- NEW -->
+                
+
+                       <!-- <li class="reviews__slider-list-element">
+                        <figure class="reviews__slider-list-element-figute-yana"></figure>
+                          <img class="reviews__slider-list-elemen-img-3" src="./img/png/reviews-sasha.png" alt="blue_card_background">
+                          <figcaption class="reviews__slider-list-element-figute-figcaption-2-yana">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia eget mattis orci aliquam enim tincidunt gravida aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt. Pretium dictum odio feugiat auctor diam sit viverra gravida. Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac. Cursus diam turpis iaculis nisi sit. Vel blandit et sit elit vestibulum feugiat proin tempor, justo. Diam commodo, pellentesque at porttitor tristique faucibus faucibus morbi. Bibendum pretium lacus, tempus viverra vitae odio nunc eget.</figcaption>
+                          <figcaption class="reviews__slider-list-element-figute-figcaption-2-yana">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia eget mattis orci aliquam enim tincidunt gravida aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt. Pretium dictum odio feugiat auctor diam sit viverra gravida. Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac. Cursus diam turpis iaculis nisi sit. Vel blandit et sit elit vestibulum feugiat proin tempor, justo. Diam commodo, pellentesque at porttitor tristique faucibus faucibus morbi. Bibendum pretium lacus, tempus viverra vitae odio nunc eget.</figcaption>
+                           <figcaption class="reviews__slider-list-element-figute-figcaption-3-yana">Tortor fermentum orci neque sed. Mauris faucibus diam lorem erat ullamcorper donec egestas neque. Maecenas malesuada mauris magnis sed id. Luctus vitae justo, in consectetur arcu. Nulla feugiat at eu in aliquet. Diam nunc, libero mauris tellus suspendisse morbi sagittis semper.  </figcaption>
+                       </figure>
+                      </li> -->
+
+
+                      //FIGMA https://www.figma.com/file/qcmKp98gPYVyHQRSvVUxrX/Templates-%2322.-More-on-d-e-n.info?node-id=0%3A1

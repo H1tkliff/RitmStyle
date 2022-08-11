@@ -1,0 +1,85 @@
+@import url(/css/nullstyles.css);
+@import url(/css/header.css);
+@import url(/css/footer.css);
+@import url(/css/media/media960px.css);
+@import url(/css/media/media767px.css);
+.all {
+  background: #162831;
+}
+
+.header__nav-button {
+  margin-left: 25px;
+}
+
+.header__nav {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.news {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.news__titlebloc {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.news__titlebloc-lefticon {
+  padding-right: 45px;
+}
+.news__titlebloc-title {
+  font-family: "El Messiri Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.news__titlebloc-righticon {
+  padding-left: 45px;
+}
+.news__cards-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 30px;
+}
+.news__cards-card-section {
+  position: relative;
+  padding-bottom: 24px;
+  padding-right: 15px;
+}
+.news__cards-card-section-date {
+  position: absolute;
+  background: #018ABE;
+  border-radius: 5px;
+  width: 89px;
+  height: 30px;
+  top: 0;
+  right: 10;
+  margin-top: 30px;
+  margin-left: 35px;
+  font-family: "Proxima Nova Regular";
+  font-size: 14px;
+  line-height: 135%;
+  color: #FFFFFF;
+  padding-top: 6px;
+  text-align: center;
+}
+.news__cards-card-section-title {
+  position: absolute;
+  top: 0;
+  right: 10;
+  font-family: "El Messiri Bold";
+  font-size: 21px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding-top: 199px;
+  padding-left: 35px;
+}
+
+.footer__wrapper {
+  padding-right: 0;
+}/*# sourceMappingURL=newsstyles.css.map */

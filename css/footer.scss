@@ -1,0 +1,36 @@
+$max-width: 1296px;
+//Шрифт по умолчанию
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+
+.footer {
+      
+
+		&__wrapper {
+			 max-width: 1296px;
+		margin: 0 auto;  
+           display: flex;
+		   flex-wrap: wrap;
+		   justify-content: space-between;
+		   width: 100%;
+		   padding-right: 30px;
+		   
+		}
+
+		&__wrapper-year {
+		font-family: $fontfamilyProximaNovaRegular;
+		font-size: 14px;
+		line-height: 135%;
+		color: #FFFFFF;
+		}
+
+		&__wrapper-createby {
+		font-family: $fontfamilyProximaNovaRegular;
+		font-size: 14px;
+		line-height: 135%;
+		color: #FFFFFF;
+			
+		}
+}

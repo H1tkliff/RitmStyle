@@ -1,0 +1,129 @@
+$fontfamilyProximaNovaRegular: "Proxima Nova Regular";
+$fontfamilyElMessiriBold: "El Messiri Bold";
+$fontfamilyProximaNovaBold: "Proxima Nova Bold";
+$fontfamilyProximaNovaLight: "Proxima Nova Light";
+
+@media screen and (max-width: 960px) {
+    .header{
+        &__nav-logo{
+            padding-left: 10px;
+            margin-right: 90px;
+            
+        }
+       
+        &__nav-menu{
+            
+        }
+        &__nav-menu-list{
+            padding-right: 25px;
+            
+        }
+        &__nav-menu-list:last-child{
+           margin-right: 100px;
+            
+        }
+
+        &__screen-figcaption-1{
+            padding-left: 250px;
+        }
+        &__screen-figcaption-2{
+            padding-left: 250px;
+        }
+        &__screen-figcaption-3{
+            padding-left: 250px;
+        }
+    }
+    .sessions{
+       
+        &__cards-image{
+            margin-bottom: 60px;
+        }
+    }
+
+    .about{
+        &__theraphy{
+            flex-wrap: nowrap;
+            // margin-left: 10px;
+            // margin-right: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+        }
+        &__media-paragraph{
+            font-size: 14px;
+        }
+
+    }
+
+    .costs{
+        &__card-titles{
+            padding-left: 10px;
+        }
+        &__card-gift{
+            padding-right: 10px;
+        }
+    }
+
+    .adress{
+        &__card{
+            display: block !important;;
+            max-width: 960px !important;
+            padding-left: 60px;
+            
+        }
+        &__card-mediaWrapper{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__card-workclass{
+            margin-top: 15px;
+            margin-left: 0px !important;
+            min-width: 392px;
+            min-height: 290px;
+        }
+        &__block-try{
+            margin-top: 15px !important;
+            margin-left: 73px !important;
+            justify-content: flex-end;
+            margin-top: 0px;
+        }
+
+    }
+    .footer{
+        &__wrapper{
+            padding-right: 0px;
+        }
+        &__wrapper-year{
+            padding-left: 10px;
+        }
+        &__wrapper-createby{
+            padding-right: 10px;
+        }
+    }
+
+
+
+}
+
+
+
+
+//BLOG HTML
+@media screen and (max-width: 960px) {
+.main{
+    &__card-info-text{
+        font-size: 12px !important;
+    }
+}
+
+}
+
+//NEWS HTML
+@media screen and (max-width: 960px) {
+.news{
+    &__cards{
+        margin-left: 50px;
+        
+    }
+}
+}
